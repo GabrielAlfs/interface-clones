@@ -39,7 +39,11 @@ module.exports = {
         extensions: ['.ts', '.js', '.json'],
       },
       alias: {
-        map: [['@', './src']],
+        map: [
+          ['@', './src'],
+          ['@application', './src/application'],
+          ['@ui', './src/ui'],
+        ],
         extensions: ['.ts', '.vue', '.json'],
       },
     },

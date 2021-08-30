@@ -1,8 +1,8 @@
 import { createApp, defineComponent } from 'vue';
 import * as volar from '@volar/experimental/client';
-import '@/ui/assets/tailwind.css';
+import '@ui/assets/tailwind.css';
 
-import { router } from '@/application/router';
+import { router } from '@application/router';
 
 const app = createApp(
   defineComponent({

@@ -7,7 +7,17 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 // https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
-    alias: [{ find: '@', replacement: resolve(__dirname, './src') }],
+    alias: [
+      { find: '@', replacement: resolve(__dirname, './src') },
+      {
+        find: '@application',
+        replacement: resolve(__dirname, './src/application'),
+      },
+      {
+        find: '@ui',
+        replacement: resolve(__dirname, './src/ui'),
+      },
+    ],
   },
   plugins: [vue(volar.getVuePluginOptionsForVite()), vueJsx()],
 });
