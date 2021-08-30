@@ -1,5 +1,5 @@
 <template>
-  <div>Hello</div>
+  <div class="text-3xl text-center text-red-700 font-semibold">Hello World</div>
 </template>
 
 <script lang="ts">
