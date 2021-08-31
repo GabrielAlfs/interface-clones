@@ -6,7 +6,7 @@
       justify-center
       gap-8
       h-screen
-      to-gray-600
+      to-gray-800
       from-gray-900
       bg-gradient-to-tr
     "
