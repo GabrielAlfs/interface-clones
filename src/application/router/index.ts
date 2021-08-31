@@ -6,6 +6,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: () => import('@ui/pages/Home.vue'),
   },
+  {
+    path: '/spotify',
+    name: 'Spotify',
+    component: () => import('@ui/pages/spotify/Spotify.vue'),
+  },
 ];
 
 export const router = createRouter({
