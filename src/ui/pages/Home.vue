@@ -1,5 +1,7 @@
 <template>
-  <div class="text-3xl text-center text-red-700 font-semibold">Hello World</div>
+  <div class="text-3xl text-center text-red-700 font-semibold">
+    <router-link to="/spotify">spotify clone</router-link>
+  </div>
 </template>
 
 <script lang="ts">
