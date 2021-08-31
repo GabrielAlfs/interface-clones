@@ -34,7 +34,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { MenuItems, MenuItem } from '@headlessui/vue';
-import AccountIcon from '../../../assets/icons/AccountIcon.vue';
+import AccountIcon from '@ui/pages/spotify/assets/icons/AccountIcon.vue';
 
 export default defineComponent({
   name: 'NavBarMenu',

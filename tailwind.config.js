@@ -15,6 +15,7 @@ module.exports = {
       },
       colors: {
         spotify: {
+          green: '#1db954',
           black: '#000000',
           900: '#121212',
           800: '#181818',
@@ -27,7 +28,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ['active', 'group-hover'],
+    },
   },
   plugins: [],
 };
